@@ -1,11 +1,11 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(107, 61, 61);
+  color: rgb(90, 37, 37);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
   display: block;
-  font-weight: 100;
+  font-weight: 600;
   font-size: 24px;
   line-height: 25px;
   margin-bottom: 0;
@@ -33,6 +33,9 @@ li::first-letter {
   padding: 20px;
   border: 1px solid rgb(211, 184, 216);
   border-radius: 10px;
+  border-radius: 10px 0 10px;
+  box-shadow: 5px 5px 2px 1px rgba(172, 172, 192, 0.2);
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
 .weather-temperature img {
@@ -61,4 +64,15 @@ li::first-letter {
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.form-control,
+.btn {
+  border-radius: 10px 0 10px;
+}
+.form-control {
+  background-color: #f5efef;
+}
+.form-control:hover {
+  background-color: white;
 }
